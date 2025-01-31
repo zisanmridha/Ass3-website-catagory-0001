@@ -3,33 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Browse Pets</title>
+    <title>Tea House</title>
 
-        <!-- Google Font -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        
-        <!-- Font Awesome CDN -->
-        <script src="https://kit.fontawesome.com/e43c9bf8c1.js" crossorigin="anonymous"></script>
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script>
-            tailwind.config = {
-              theme: {
-                extend: {
-                  colors: {
-                    clifford: '#da373d',
-                  }
-                }
-              }
-            }
-          </script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!-- Font Awesome CDN -->
+<script src="https://kit.fontawesome.com/e43c9bf8c1.js" crossorigin="anonymous"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
 </head>
-<body>
-    <main>
-        <header></header>
 
-    </main>
-    
+<body>
+  <!-- header nav bar section added and style -->
+
+  <header class="max-w-screen-xl mx-auto px-16 bg-orange-50 border-b md:border-b-0 lg:border-b-0 border-black">
+    <section class="max-w-7xl px-3 py-3 mx-auto flex justify-between items-center ">
+      <div class="flex justify-center items-center gap-x-2">
+        <img src="image/logo-header.png" alt="logo-img">
+        <h3 class="sora text-xl hidden md:block lg:block">Browse<span class="text-primary text-yellow-500">4</span>Pets</h3>
+      </div>
+      <div class="hidden  lg:block">
+        <ul class="flex justify-center items-center gap-x-6">
+          <li class="hover:text-orange-500 px-6"><a href="#" class="sora">Find a Pet</a>
+          </li>
+          <li class="hover:text-orange-500 px-6"><a href="#" class="sora">Breeds</a></li>
+          <li class="hover:text-orange-500 px-6"><a href="#" class="sora">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="block md:hidden lg:hidden">
+        <div class="dropdown  ">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden bg-white drop-shadow-sm hover:bg-yellow-300">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              class="inline-block h-5 w-5 stroke-current">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </div>         
+        </div>
+      </div>
+      <div class="hidden md:block lg:block space-x-2">
+        <i class="fa-regular fa-bell cursor-pointer hover:text-btncolor"></i>
+        <i class="fa-solid fa-magnifying-glass cursor-pointer hover:text-btncolor"></i>
+        <button
+          class="py-2 px-6 border border-yellow-100 border-primary rounded-md sora hover:bg-btncolor hover:text-white  ">Login</button>
+        <button
+          class="bg-yellow-400 py-2 px-6 bg-btncolor border border-primary rounded-md sora hover:bg-btncolor hover:text-white  ">Register</button>
+      </div>
+    </section >
+  </header>
+  <main>
+
+  </main>
+
+
+
+
+
+
+
+
 </body>
+
 </html>
