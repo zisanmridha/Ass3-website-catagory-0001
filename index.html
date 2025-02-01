@@ -70,7 +70,7 @@
   <main class="max-w-screen-xl mx-auto px-16">
     <section class="max-w-7xl px-3 py-3  mx-auto mt-5 md:mt-12 lg:mt-12"> 
       <div
-        class="space-y-4 md:space-y-6 lg:space-y-6 h-[500px] md:h-[700px] lg:h-[700px] bg-[url(assets/cat-big.png)] bg-contain bg-[center_220px] md:bg-right lg:bg-right bg-no-repeat">
+        class="space-y-4 md:space-y-6 lg:space-y-6 h-[500px] md:h-[700px] lg:h-[700px] bg-[url(image/cat-big.png)] bg-contain bg-[center_220px] md:bg-right lg:bg-right bg-no-repeat">
         <h1 class="text[#111111] leading-tight lg:leading-snug  text-3xl md:text-6xl lg:text-6xl adlam">Pamper Your
           Pet,<br> Because They Deserve<br> the Bes</h1>
         <p class="text-lg md:text-xl lg:text-xl">Discover a world of treats, toys, and essentials handpicked for<br
@@ -79,10 +79,6 @@
         <button
           class="text-black bg-yellow-500 py-2 px-6 bg-btncolor border border-primary rounded-md sora hover:bg-btncolor hover:text-white  ">Find
           a Pet</button>
-      </div>
-      <!-- banner cad image  -->
-      <div>
-        <img class="w-400 h-100" src="image/cat-big.png" alt="">
       </div>
     </section>
 
@@ -144,12 +140,11 @@
         </div>
         <div class="mt-8 grid gap-6  grid-cols-1 lg:grid-cols-[35%_63%]">
           <div
-            class="bg-yellow-400 h-[400px] space-y-5 bg-primary p-8 rounded-md bg-[url(assets/cute-pet-small.png)] bg-no-repeat hover:bg-btncolor cursor-pointer bg-right">
+            class="bg-yellow-400 h-[400px] space-y-5 bg-primary p-8 rounded-md bg-[url(image/cute-pet-small.png)] bg-no-repeat hover:bg-btncolor cursor-pointer bg-right">
             <h2 class="adlam text-xl font-bold top-30">T- Shirt For Dogs</h2>
             <p> Discover a world of treats, toys, and <br> essentials handpicked for</p>
             <button class="font-bold py-2 px-6 bg-white rounded-md sora">Shop Now</button>
             <div class="">
-            <img class=" py-50 w-40 h-30" src="image/cute-pet-mid.png" alt="">
           </div>
           </div>
           <div class="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-3">
@@ -376,9 +371,16 @@
       </div>
     </section>
 
-    <section class="max-w-7xl mx-auto">
+  
+
+    <!-- footer section added and style -->
+    <footer>
+      <section class="bg-yellow-300 mt-60 bg-primary pt-60 pb-10">
+         <!-- Footer card section -->
+
+    <div class="max-w-7xl mx-auto px-16 -mt-[30rem] mb-20">
       <div
-        class=" bg-orange-50 mx-3 py-14 rounded-md flex flex-col md:flex-row lg:flex-row justify-around items-center ">
+        class=" bg-orange-100 mx-3 py-14 rounded-md flex flex-col md:flex-row lg:flex-row justify-around items-center ">
        
         <div>
           <img src="image/cute-pet-mid.png" alt="dog">
@@ -394,15 +396,13 @@
         </div>
       </div>
     </div>
-    </section>
-    <footer>
-      <section class="mt-20 bg-primary pt-10">
-        <div>
-        <div class="flex flex-col md:flex-row lg:flex-row md:justify-between lg:justify-be max-w-7pxl py-15 px-4 mx-auto">
+  </div>
+        <div class="max-w-screen-xl mx-auto px-16">
+        <div class=" flex flex-col md:flex-row lg:flex-row md:justify-between lg:justify-be max-w-7pxl py-15 px-4 mx-auto">
           <div class="space-y-4">
             <div class="items-center flex gap-x-3">
               <img src="image/logo-footer.png" alt="">
-              <h2>Browse <span>4</span>Pets</h2>
+              <h2 class="sora text-xl font-bold">Browse <span class="text-yellow-500">4</span>Pets</h2>
             </div>
             <div>
               <p>Discover a world of treats, toy, and <br> essentials Handpicked for your furry <br> friends</p>
@@ -416,29 +416,19 @@
               <li class="sore"><a href=""></a>Contact Us</li> 
             </ul>
           </div>
-
-          <div class="flex flex=col justify-center space-y-4 ">
-            <p class="sora">Follow Us</p>
-
-            <div>
-              <a href=""><i>fa-brands fa-facebook</i></a>
-              <a href=""><i>fa-brands fa-instagram</i></a>
-              <a href=""><i>fa-brands fa-linkedin</i></a>
-              <a href=""><i>fa-brands fa-youtube</i></a>
+            
+            <div class="space-x-2 justify-start">
+              <p class="sora mx-2">Follow Us</p>
+              <div class="mx-1 space-x-3">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
             </div>
-          </div>
-
-
-
-
-          
-
-          
+            </div>         
         </div>
       </div>
       </section>
     </footer>
-
 </body>
-
 </html>
